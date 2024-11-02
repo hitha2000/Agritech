@@ -1,0 +1,310 @@
+
+/* Plant Disease*/
+
+
+.movie-background{ background-image: url("C:\Users\91805\Desktop\agritech\pd\src\images\b2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+   
+ }
+ .image-css
+ {
+   height: 40rem;
+   width: 40rem;
+
+ }
+ 
+ .movie-head{
+   font-family: "Times New Romam";
+   text-align:center;
+   font-size:3rem;
+   color:#1e411e;
+   font-weight: bolder;
+ }
+ 
+ .movie-container{
+   border-top:.5rem whitesmoke solid;
+  
+  
+   border-radius: 1rem;
+   
+ }
+ .movie-form::-webkit-input-placeholder {
+   color:black;
+ }
+
+ .image-css {
+   
+   height: 40px;
+   width: 40px;
+ }
+
+
+
+ 
+ .form-control::-webkit-input-placeholder {
+   color:black;
+ }
+ 
+ .movie-input{
+   
+   text-align:center;
+   font-family: "Times New Roman";
+   font-size:1.2rem;
+   opacity: .70;
+   font-weight: bolder;
+  
+  
+   
+ }
+ 
+ .movie-fhead{
+   font-family: "Times New Romam";
+   font-weight: bold;
+   font-size:1.5rem;
+   color:black;
+   
+ }
+ 
+ .movie-pred{
+   font-family: "Times New Romam";
+   text-align:center;
+   font-size:2rem;
+   color:black;
+   padding-right: 1rem;
+   
+ }
+ 
+ .movie-submit{
+   background:#281E5D !important;
+   color:white;
+   font-family:"Times New Roman";
+   font-size:1.2rem;
+ }
+ 
+ .movie-overview{
+  
+   color:white;
+   left:5rem;
+   font-family:"Times New Roman";
+   font-size:2rem;
+ }
+ 
+ .movie-para{
+   color:white;
+   left:5rem;
+   font-family:"Times New Roman";
+   font-size:1.4rem;
+ }
+ 
+ @media(max-width:1300px)
+ {
+   .movie-para{
+     color:white;
+     left:5rem;
+     font-family:"Times New Roman";
+     font-size:1.1rem;
+   }
+ }
+
+ 
+.file-style
+{
+  display: none;
+}
+ .btn-file {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid black;
+  font-weight: bolder;
+
+
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+ 
+  filter: alpha(opacity=0);
+  opacity: 0;
+ 
+  background: white;
+  cursor: inherit;
+  display: block;
+  
+  color:black;
+ 
+}
+
+.disease {
+  font-family: "Times New Romam";
+ top:-15rem;
+ text-align: center;
+ font-size: 1.5rem;
+ color:#173117;
+ font-weight:bold;
+}
+.app
+{
+  display: none;
+  
+}
+.play-btn
+{
+  border-radius:.5rem;
+  padding: 0.25rem;
+  font-weight: bold;
+  border:2px solid #173117;
+  color:#173117;
+  
+}
+
+.audio{
+  font-family: "Times New Romam";
+  font-size:1.5rem;
+  color:#173117;
+  font-weight:bold;
+}
+
+.sel-lang{
+  margin-top: 3.3rem;
+  font-family: "Times New Romam";
+  font-weight: bold;
+  font-size:1.2rem;
+  color:#173117;
+  
+}
+
+.sel-lang-head{
+  margin-top:3rem;
+  font-family: "Times New Romam";
+  font-weight: bold;
+  font-size:1.5rem;
+  color:#173117;
+  
+}
+
+/* Crop Recommendation */
+
+.crop-background {
+ 
+  background-image: url("C:\Users\91805\Desktop\agritech\pd\src\images\cropbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 135vh;
+  padding: 2rem;
+
+ 
+}
+.crop-margin{
+  margin-bottom: 2rem;
+}
+
+.crop-img {
+  width:100%;
+}
+
+.crop-heading
+{
+  text-transform: uppercase;
+  font-size: large;
+
+}
+.crop-card
+{
+  background-color: none;
+  opacity: .65;
+  font-weight: bolder;
+ 
+}
+.crop-font{
+  font-weight: bolder;
+}
+.crop-input{
+  text-align:center;
+   font-family: "Times New Roman";
+   font-size:1.4rem;
+   font-weight: bolder;
+   color: black;
+}
+.crop-input-box{
+  text-align:center;
+   font-family: "Times New Roman";
+   font-size:1rem;
+   font-weight: bolder;
+   color: black;
+}
+
+
+/* Fertilizer Recommendation*/
+
+
+.fertilizer_background
+{
+  background-image: url("C:\Users\91805\Desktop\agritech\pd\src\images\fertilizer_2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding:2rem;
+}
+
+.fertilizer-modal {
+
+  height: 100%;
+  width:100%;
+  
+}
+
+.fertilizer-data {
+  margin: 1rem;
+  font-family:  serif;
+  font-size: 1.2rem;
+  font-weight: 1rem;
+  text-align: justify;
+  color: black;
+}
+
+/* Pesticide Recommendation */
+
+.pest-card
+{
+  background-color: none;
+  opacity: .65;
+  font-weight: bolder;
+  width : 100%;
+  height: 15rem ;
+}
+
+.pest-head {
+  width:100%;
+  text-align: center;
+}
+
+.pest-img {
+  width:50%;
+  height: 50%;
+}
+
+.pest-dose {
+  margin-right: 1rem;
+  margin-left: 3rem;
+  padding: 1.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.pest-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+
